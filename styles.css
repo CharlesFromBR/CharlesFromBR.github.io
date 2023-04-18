@@ -1,0 +1,236 @@
+*{
+
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/backbroundimg4.webp"); 
+    background-size: cover;
+    background-position: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.nav-bar .title{
+    color: #fff;
+    font-size: 67px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+span{
+    color: rgb(253, 35, 119);
+}
+
+.nav-bar p{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 25px;
+    font-weight: 600;
+    transition: .4s ease;
+}
+ .menu li a:hover{
+    color: rgb(253, 35, 119);
+    padding: 5px 10px;
+    border: 2px solid #efff;
+ }
+ .h2{
+    white-space: white;
+ }
+
+ .home {
+    padding: 50px;
+    height: 400px;
+    
+ }
+ .title-1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+ }
+
+ .title-2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+ }
+
+ .home p {
+    color: lemonchiffon;
+    font-size: 20px;
+    padding: 10px;
+ }
+
+ .home button {
+    height: 40px;
+    color: #fff;
+    font-size: 22px;
+    background: rgb(253, 35, 119);
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+ }
+
+ .home button:hover {
+    background: none;
+    border: 2px solid rgb(253, 35, 119);
+ }
+
+ .about-us {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-us h1 {
+  font-size: 3rem;
+  color: #fff;
+
+  padding: 1rem;
+}
+
+.about-us p {
+    font-size: 20px;
+  color: #fff;
+  text-align: justify;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+
+
+.contact {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact textarea {
+    resize: none;
+    height: 150px;
+  }
+  
+  .contact button[type="submit"] {
+    display: inline-block;
+    background-color: #6b1c21;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .contact button[type="submit"]:hover {
+    background-color: #8c2e35;
+  }
+  input {
+    margin: 10px;
+  }
+
+  button {
+    padding-top: 10px;
+  }
+  h1.title {
+    padding-top: 20px;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 600px;
+  }
+  
+  .product img {
+    width: 100%;
+    max-width: 100px;
+  }
+  
+  .product h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0;
+    color: #efff;
+  }
+
+  .product p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 20px;
+    color: #fff;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: rgb(253, 35, 119);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: none;
+    color: rgb(253, 35, 119);
+    border: 2px solid rgb(253, 35, 119);
+  }
+  .img-product {
+    background: url('images/produtoimg.jpg');
+  }
+  
+
+
